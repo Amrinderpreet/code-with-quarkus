@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'io.quarkus:quarkus-jsonb'
+    implementation 'io.quarkus:quarkus-jackson'
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
     implementation 'io.quarkus:quarkus-picocli'
     implementation 'io.quarkus:quarkus-arc'
