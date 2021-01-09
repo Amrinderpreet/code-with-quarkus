@@ -9,4 +9,5 @@ then one of them needs to be also annotated with io.quarkus.picocli.runtime.anno
 @CommandLine.Command(mixinStandardHelpOptions = true, subcommands = {GetFruits.class, AddFruit.class})
 
 public class EntryCommand {
+
 }
